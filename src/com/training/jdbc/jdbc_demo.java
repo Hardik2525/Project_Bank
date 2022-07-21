@@ -12,7 +12,7 @@ public class jdbc_demo {
 	public static void main(String[] args) {
 			
 		Scanner scn=new Scanner(System.in);
-		String name="A",city="S";
+		String name,city;
 		int accno,amt=0;
 		
 		ArrayList<Account> list =new ArrayList<>();
@@ -234,6 +234,8 @@ public class jdbc_demo {
 		}
 		
 		}while(choice!=6);
+		
+		scn.close();
 		
 	}
 	
